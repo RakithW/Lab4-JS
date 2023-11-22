@@ -46,7 +46,7 @@
                 "Oreo Cookies",
                 "Vanilla Base"
             ],
-            "image": "https://github.com/RakithW/Lab4-JS/blob/main/images/ice-cream-xtra2.svg"
+            "image": "https://rakithw.github.io/Lab4-JS/images/ice-cream-xtra2.svg"
         },
         {
             "name": "Pistachio",
@@ -57,7 +57,7 @@
                 "Cream",
                 "White Chocolate"
             ],
-            "image": "https://github.com/RakithW/Lab4-JS/blob/main/images/ice-cream-xtra1.svg"
+            "image": "https://rakithw.github.io/Lab4-JS/images/ice-cream-xtra1.svg"
         }
     ]
 }
