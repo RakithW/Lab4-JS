@@ -36,7 +36,28 @@
                 "Vanilla Base"
             ],
             "image": "https://priyansht.github.io/23F-JavaScript-02-Week11/images/strawberry-sprinkle.svg"
+        },
+        {
+            "name": "Cookies n' Cream",
+            "calories": 800,
+            "type": "ice-cream",
+            "ingredients": [
+                "Chocolate Syrup",
+                "Oreo Cookies",
+                "Vanilla Base"
+            ],
+            "image": "https://github.com/RakithW/Lab4-JS/blob/main/images/ice-cream-xtra2.svg"
+        },
+        {
+            "name": "Pistachio",
+            "calories": 800,
+            "type": "ice-cream",
+            "ingredients": [
+                "Pistachio Paste",
+                "Cream",
+                "White Chocolate"
+            ],
+            "image": "https://github.com/RakithW/Lab4-JS/blob/main/images/ice-cream-xtra1.svg"
         }
-        
     ]
 }
