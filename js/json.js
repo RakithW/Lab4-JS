@@ -14,7 +14,7 @@ async function populate() {
     const response = await fetch(request);
     // STEP 7: Capture the returned Response object and covert to a JSON object using json()
     const responseJson = await response.json();
-    // STEP 8: Output the iScream JSON object to the console 
+    // STEP 8: Output the iScream JSON object to the console
     console.log(responseJson);
     // STEP 9a: Invoke the populateHeader function here, then build it below
     populateHeader(responseJson);
@@ -45,12 +45,12 @@ function showTopFlavors(jsonData) {
     for (let i = 0; i < topFlavors.length; i++) {
         console.log(topFlavors[i]);
         // STEP 10e: build HTML elements for the content: article, h2, image, p1, p2, list
-        var article = document.createElement("article") // <article></article>
-        var h2 = document.createElement("h2") // <h2></h2>
-        var image = document.createElement("img") // <img>
-        var p1 = document.createElement("p") // <p></p>
-        var p2 = document.createElement("p") // <p></p>
-        var list = document.createElement("ul") // <ul></ul>
+        var article = document.createElement("article"); // <article></article>
+        var h2 = document.createElement("h2"); // <h2></h2>
+        var image = document.createElement("img"); // <img>
+        var p1 = document.createElement("p"); // <p></p>
+        var p2 = document.createElement("p"); // <p></p>
+        var list = document.createElement("ul"); // <ul></ul>
         // STEP 10f: Set the textContent property for each of the above elements (except the UL), based on the JSON content
         h2.textContent = topFlavors[i].name;
         p1.textContent = `Type: ${topFlavors[i].type}`;
